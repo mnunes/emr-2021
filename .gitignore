@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+slides/.DS_Store
+.DS_Store
+*.Rmd
+slides/slides.R
+*.log
+slides/figure
+slides/slides_cache
+slides/slides_files

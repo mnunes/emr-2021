@@ -26,7 +26,7 @@ Há alguns programas que devem ser instalados em seu computador para que ele fiq
 
 3. Há uma série de pacotes a serem instalados no `R` para que a disciplina seja acompanhada. Assim, após abrir o RStudio pela primeira vez, rode o comando abaixo para que todos os pacotes necessários sejam instalados em seu computador. O script irá verificar quais pacotes necessários para a disciplina já estão em seu computador e apenas aqueles pacotes que estiverem faltando serão baixados e instalados. Além disso, o script irá atualizar os pacotes que estiverem em versões antigas. É um comando demorado a ser executado, cuja duração dependerá da velocidade da sua conexão à internet.
 
-`source("https://raw.githubusercontent.com/mnunes/emr-2021/main/scripts/pacotes.R")` 
+`source("https://raw.githubusercontent.com/mnunes/emr-2021/master/scripts/pacotes.R")` 
 
 
 # Referências Bibliográficas

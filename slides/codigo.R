@@ -77,7 +77,8 @@ cars_wflow <-
 
 # ajuste do modelo
 
-cars_lm_fit_treino <- fit(cars_wflow, cars_treino)
+cars_lm_fit_treino <- fit(cars_wflow,
+                          cars_treino)
 
 tidy(cars_lm_fit_treino)
 tidy(cars_lm_fit)
@@ -88,13 +89,15 @@ set.seed(321)
 
 # divisao dos dados
 
-cars_treino_cv <- vfold_cv(cars_treino, v = 5)
+cars_treino_cv <- vfold_cv(cars_treino, 
+                           v = 5)
 
 cars_treino_cv
 
 # modelo ajustado com validacao cruzada
 
-cars_lm_fit_cv <- fit_resamples(cars_wflow, cars_treino_cv)
+cars_lm_fit_cv <- fit_resamples(cars_wflow,
+                                cars_treino_cv)
 
 cars_lm_fit_cv
 

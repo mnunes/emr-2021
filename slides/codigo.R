@@ -132,6 +132,8 @@ ggplot(resultado, aes(x = dist, y = predicao_lm)) +
 ### random forest ###
 #####################
 
+library(tidyverse)
+theme_set(theme_bw())
 library(tidymodels)
 library(onehot)
 library(palmerpenguins)

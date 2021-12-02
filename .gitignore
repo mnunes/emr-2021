@@ -12,3 +12,4 @@ slides/figure
 slides/slides_cache
 slides/slides_files
 resultados.RData
+*.RData
